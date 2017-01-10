@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-09T10:28:05+08:00
+
+====== 服务器登录信息 ======
+Created Monday 09 January 2017
+跳板机账号：fulei.yang
+跳板机密码:.wangmeng951011

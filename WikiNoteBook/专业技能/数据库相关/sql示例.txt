@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-08T15:38:30+08:00
+
+====== sql示例 ======
+Created Sunday 08 January 2017
+
+===== 1、sql查询时间 =====
+	select id as promotion_id, is_all_goods
+        from promotion_info t
+        where t.merchant_id = 100507464
+	and ((t.start_time <= '2017-01-11 23:59:00' and t.end_time >= '2017-01-05 00:00:00') or (t.start_time <= '2017-01-05 00:00:00' and t.end_time>= '2017-01-11 23:59:00'))
+
+===== 2、基本增删改查 =====
+
+==== 增： ====
+
+==== 删： ====
+
+==== 改： ====
+update <表名> set <列名=更新值> [where <更新条件>] 
+
+
+==== 查： ====
+[[./SQL语句增删改查.doc]] 

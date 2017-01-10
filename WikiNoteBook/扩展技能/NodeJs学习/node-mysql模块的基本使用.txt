@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-09T13:21:39+08:00
+
+====== node-mysql模块的基本使用 ======
+Created Monday 09 January 2017
+
+===== 1、http://www.jianshu.com/p/eebcce424d2f 连接测试 =====
+
+===== 2、http://blog.csdn.net/gebitan505/article/details/46346917 十分详细，讲到了断线重连等一系列的功能 =====
+
+===== 3、http://cnodejs.org/ 淘宝人建立的nodejs社区 =====
+4、http://www.sxt.cn/info-2562-u-324.html 非常不错的node教程
+5、https://www.oschina.net/translate/node-mysql-tutorial?cmp nodemysql文档 
+6、bower的使用

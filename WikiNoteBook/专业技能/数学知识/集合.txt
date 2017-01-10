@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-10T10:32:35+08:00
+
+====== 集合 ======
+Created Tuesday 10 January 2017
+
+===== 1、笛卡尔积 =====
+所谓笛卡尔积,通俗点说就是指包含两个集合中任意取出两个元素构成的组合的集合。假设R中有元组M个，S中有元组N个，则R和S的笛卡尔积中包含的元组数量就是M*N。这个规则可以向多个关系扩展。

@@ -1,0 +1,97 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-08T13:55:36+08:00
+
+====== 基本概念 ======
+Created Sunday 08 January 2017
+
+===== 1、Node.js模块概念： =====
+事实上，NodeJs也是基于模块间的依赖来进行项目架构的搭建的，事实上，我们应该掌握一些基本模块的使用：
+下面是一些基本的用法：
+首先定义函数：
+moudle.js内容如下：
+//function hello() {//
+//    console.log('Hello');//
+//}//
+//function world() {//
+//    console.log('World');//
+//}//
+
+==== 1.1 module.exports和exports(引入外部模块) ====
+引入外部模块有两种方式：
+
+=== 1.1.1 exports ===
+在moudle.js中添加
+//exports.hello = hello;//
+//exports.world = world;//
+
+==== -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ====
+之后在需要的模块中引入：
+var hello = require('./mymodule');//var hello = require('./mymodule.js');同理
+接下来可以使用其中的函数了。
+
+=== 1.1.2 module.exports ===
+moudle.js还可以改为如下格式：
+//function Hello() {//
+//    this.hello = function() {//
+//        console.log('Hello');//
+//    };//
+//    this.world = function() {//
+//        console.log('World');//
+//    };//
+//}//
+module.exports = Hello;
+
+==== -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ====
+
+如下格式便可以使用其中的函数：
+//var Hello = require('./mymodule');//
+//var hello = new Hello();//
+//hello.hello(); // >> Hello//
+//hello.world(); // >> World//
+
+===== 1.2 module.exports和exports区别 =====
+从上面的内容我们可以看得出来，实际上他们还是有一定的区别的，理解如下：
+
+==== -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ====
+module是一个对象，每个模块中都有一个module对象，module是当前模块的一个引用。
+module.exports对象是Module系统创建的，而exports可以看作是对module.exports对象的一个引用。
+在模块中require另一个模块时，以module.exports的值为准，因为有的情况下，module.exports和exports它们的值是不同的。
+
+==== -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ====
+
+===== 2、Node js的包; =====
+包用于管理多个模块及其依赖关系，可以对多个模块进行封装，包的根目录必须包含package.json文件，package.json文件是CommonJS规范用于描述包的文件，符合CommonJS规范的package.json文件应该包含以下字段：
+* name：包名。包名是唯一的，只能包含小写字母、数字和下划线。
+* version：包版本号。
+* description：包说明。
+* keywords：关键字数组。用于搜索。
+* homepage：项目主页。
+* bugs：提交bug的地址。
+* license：许可证。
+* maintainers：维护者数组。
+* contributors：贡献者数组。
+* repositories：项目仓库托管地址数组。
+* dependencies：包依赖。
+
+===== 3、npm包管理工具 =====
+类似于我们java的maven
+
+===== 4、NodeJs的事件监听机制 =====
+为事件绑定事件处理程序，可以使用emitter.addListener(event, listener)和emitter.on(event, listener)，它们的作用是完全一样的。传入的参数是事件（event）和处理函数（listener）。
+绑定事件的示例：
+//var http = require('http');//
+//var server = http.createServer();//
+//// 为request事件绑定处理函数//
+//// 也可以使用server.addListener//
+//server.on('request', function(req, res) {//
+//    res.writeHead(200, { 'Content-Type': 'text/plain' });//
+//    res.write('shiyanlou');//
+//    console.log('shiyanlou');//
+//    res.end();//
+//});//
+//server.listen(1337, '127.0.0.1');//
+//console.log('Server running at http://127.0.0.1:1337/');//
+
+
+

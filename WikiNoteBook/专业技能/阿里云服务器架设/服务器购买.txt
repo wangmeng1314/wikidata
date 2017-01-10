@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-08T13:14:50+08:00
+
+====== 服务器购买 ======
+Created Sunday 08 January 2017
+
+1、学生机必须在阿里云的APP每月签到，获得次月续费优惠

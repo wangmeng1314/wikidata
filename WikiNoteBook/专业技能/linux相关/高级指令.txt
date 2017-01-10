@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-10T11:14:10+08:00
+
+====== 高级指令 ======
+Created Tuesday 10 January 2017
+1、网络基本命令
+ping 测试网络是否通畅
+ifconfig 查看网卡的一些参数
+netstat -ant 列举出当前的所有tcp连接的端口号，一般用来确认服务端口是否正常监听
+

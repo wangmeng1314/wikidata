@@ -4,4 +4,7 @@ Creation-Date: 2017-01-08T12:46:29+08:00
 
 ====== linux相关 ======
 Created Sunday 08 January 2017
-
+1、输入输出重定向
+2、命令重定向
+3、进程干掉
+http://blog.csdn.net/andy572633/article/details/7211546

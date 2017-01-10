@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-09T10:58:33+08:00
+
+====== 编程遇到的问题 ======
+Created Monday 09 January 2017
+
+1、[[+tomcat问题|tomcat启动缓慢]]，导致以为tomcat启动失败
