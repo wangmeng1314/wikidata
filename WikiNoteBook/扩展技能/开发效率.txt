@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T11:13:42+08:00
+
+====== 开发效率 ======
+Created Wednesday 11 January 2017
+
+1、静态api约定
+规定统一标准
+生成静态api
+前端使用静态api开发
+简单api展示：
+**{**
+**  data: {**
+
+**  },**
+**  status: {**
+**    code : x,**
+**    msg  : 'some message'**
+**  }**
+**}**

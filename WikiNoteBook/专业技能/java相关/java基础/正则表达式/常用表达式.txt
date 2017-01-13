@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T14:27:30+08:00
+
+====== 常用表达式 ======
+Created Wednesday 11 January 2017
+
+===== 1、校验是否为正整数 =====
+**regex="^[+-]?[0-9]+$";**
+2、

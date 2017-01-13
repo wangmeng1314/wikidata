@@ -28,3 +28,12 @@ freemarker数字格式化可以在两个地方设置，一个是全局的，即�
 **输出为：12.70**
 **整数取实际的位数**
 关于string指令的更多用法，可以访问官方文档：http://freemarker.sourceforge.net/docs/ref_builtins_number.html#ref_builtin_string_for_number
+
+===== 2、循环遍历数字 =====
+**<#list 1..max as i>    **
+**  <li><a href="#">${i}</a></li>**
+**</#list>**
+上面的代码可以使用Freemarker循环遍历数字，适用于我们需要取到下标的地方。
+
+但是这个的话有一个非常大的问题，那就是实际上我们的只要在遍历的变量上这样做即可：
+''promotionDetailVo_index即可取到下标''

@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T14:29:46+08:00
+
+====== 各种代码使用正则 ======
+Created Wednesday 11 January 2017
+1、java代码：
+ /**
+     * 正则表达式匹配整数
+     */
+    **private BigDecimal validatenumber(BigDecimal req){**
+**        Pattern pattern = Pattern.compile(regex);**
+**        Matcher matcher = pattern.matcher(String.valueOf(req));**
+**        if (matcher.matches()){**
+**            return req;**
+**        }else{**
+**            return req.setScale(0,BigDecimal.ROUND_DOWN);**
+**        }**
+**    }**
+2、Nodejs

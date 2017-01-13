@@ -32,4 +32,3 @@ rm-bp1z1868h936edr76.sqlserver.rds.aliyuncs.com,3433;Initial Catalog=vdgoodsdb
 rdsgse9ddy6glv72heqga.sqlserver.rds.aliyuncs.com,3433;Initial Catalog=vdsystemdb
 用户名：weimob_read         密码： weimob_read_1q2w3e4r5A
 
-{{./pasted_image.png}}

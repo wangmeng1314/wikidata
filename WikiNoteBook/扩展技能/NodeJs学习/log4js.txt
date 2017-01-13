@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T22:17:45+08:00
+
+====== log4js ======
+Created Wednesday 11 January 2017
+log4js是一个开源的node日志框架，其基本使用流程和java的log4j大同小异。
+我将其封装成了一个简单的js模块供自己调用。模块如下：

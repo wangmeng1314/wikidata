@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T14:22:34+08:00
+
+====== 正则表达式 ======
+Created Wednesday 11 January 2017
+1、校验数字是否为正整数
+

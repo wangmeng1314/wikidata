@@ -5,4 +5,15 @@ Creation-Date: 2017-01-10T09:38:50+08:00
 ====== NodeJs和数据库 ======
 Created Tuesday 10 January 2017
 1、连接mysql示例
+http://www.cnblogs.com/cnshen/p/6272541.html
 
+
+
+nasPortId
+
+https://wlan.ct10000.com/?basetype=3&nasPortId=lag-1:660.897&UserInputURL=http://hao.360.cn/?1004&nasIp=124.74.56.155
+
+常用框架	
+http://blog.csdn.net/sanqian007/article/details/46467691
+restful协议1框架
+http://mcavage.me/node-restify/

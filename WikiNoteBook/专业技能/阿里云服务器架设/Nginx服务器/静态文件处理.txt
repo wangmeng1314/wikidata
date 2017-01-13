@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-10T15:14:42+08:00
+
+====== 静态文件处理 ======
+Created Tuesday 10 January 2017
+背景：
+实际的网站架设中我们需要将动态的文件同动态文件的访问隔离开。因为一般而言，像tomcat等服务器对于静态文件的访问支持并不是特别的强悍，因此，网站的动静分离也就显得格外的重要。
+解决思路：
+**location ~ \.(gif|jpg|png)$ {**
+**    root /data/images;**
+**}**
+这句命令的含义是将会直接去匹配后缀为gif、jpg、png的文件。如果匹配成功，将会到/data/images下访问静态文件
+ps：当然，能做CDN的就不需要了。

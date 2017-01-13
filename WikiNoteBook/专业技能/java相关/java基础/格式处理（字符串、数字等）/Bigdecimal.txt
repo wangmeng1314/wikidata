@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-11T14:18:23+08:00
+
+====== Bigdecimal ======
+Created Wednesday 11 January 2017
+
+===== 1、去掉小数点或者四舍五入 =====
+**setScale(0,BigDecimal.ROUND_DOWN)；**
+可以设定保留到小数点后几位以及四舍五入的方式

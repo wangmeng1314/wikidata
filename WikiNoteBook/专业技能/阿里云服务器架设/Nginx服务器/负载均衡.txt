@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-10T15:14:56+08:00
+
+====== 负载均衡 ======
+Created Tuesday 10 January 2017
+http://www.cnblogs.com/xiaogangqq123/archive/2011/03/04/1971002.html
+在http节点里添加:
+#定义负载均衡设备的 Ip及设备状态 
+upstream myServer {   
+    server 127.0.0.1:9090 down; 
+    server 127.0.0.1:8080 weight=2; 
+    server 127.0.0.1:6060; 
+    server 127.0.0.1:7070 backup; 
+}
+在需要使用负载的Server节点下添加
+proxy_pass http://myServer;
+upstream 每个设备的状态:
+**down 表示单前的server暂时不参与负载 **
+**weight  默认为1.weight越大，负载的权重就越大。 **
+**max_fails ：允许请求失败的次数默认为1.当超过最大次数时，返回proxy_next_upstream 模块定义的错误 **
+**fail_timeout:max_fails 次失败后，暂停的时间。 **
+**backup： 其它所有的非backup机器down或者忙的时候，请求backup机器。所以这台机器压力会最轻。**
+nginx官方文档：
+https://www.nginx.com/resources/admin-guide/load-balancer/#overview

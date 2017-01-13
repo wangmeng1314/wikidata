@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-10T16:13:17+08:00
+
+====== Bootstrap ======
+Created Tuesday 10 January 2017
+1、常用的五十个插件：
+https://www.oschina.net/news/56950/jquery-bootstrap-plugins-for-your-next-projects
