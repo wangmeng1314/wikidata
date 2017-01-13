@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2017-01-12T17:06:01+08:00
-
-====== stash ======
-Created Thursday 12 January 2017
-1、代码地址：
-http://stash.weimob.com/projects/MED/repos/mengdian-freight/browse
