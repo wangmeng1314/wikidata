@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-14T16:29:07+08:00
+
+====== Json相关 ======
+Created Saturday 14 January 2017
+1、js是原生带json的解析的，即JSON.parse(data);这将会返回一个javascript对象
+2、遍历json数组，实际上任何的数组都可以采取这样的方式遍历
+目前而言test属于jaon串。
+					**$.each(test, function(i, n) {**
+**						text = n.text;**
+**						console.log(text);**
+**						select.add(new Option(text, i));**
+**					})；**
+3、

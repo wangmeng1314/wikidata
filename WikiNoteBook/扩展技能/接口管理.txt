@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-17T19:58:35+08:00
+
+====== 接口管理 ======
+Created Tuesday 17 January 2017
+
+swagger实现rest接口的管理
+
+https://www.zhihu.com/question/28119576
+java使用swagger实现接口的管理

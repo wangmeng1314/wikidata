@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-14T23:38:08+08:00
+
+====== sublime插件配置 ======
+Created Saturday 14 January 2017
+1、插件配置
+http://www.mamicode.com/info-detail-1674606.html
