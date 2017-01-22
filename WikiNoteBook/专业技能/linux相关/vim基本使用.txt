@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-01-22T14:21:50+08:00
+
+====== vim基本使用 ======
+Created Sunday 22 January 2017
+1、显示行号
+：set nu
+当然，对应的不显示行号就是:set nonu
+2、搜素
+：/pattern
+搜索格式相符的字符串，忽略大小写。
+3、退出插入模式
+ESC
+4、在编辑的过程中保存文件
+：w
+5、
