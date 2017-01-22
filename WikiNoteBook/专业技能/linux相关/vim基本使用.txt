@@ -4,6 +4,9 @@ Creation-Date: 2017-01-22T14:21:50+08:00
 
 ====== vim基本使用 ======
 Created Sunday 22 January 2017
+
+===== 一：基本使用 =====
+basicvim
 1、显示行号
 ：set nu
 当然，对应的不显示行号就是:set nonu
@@ -14,4 +17,22 @@ Created Sunday 22 January 2017
 ESC
 4、在编辑的过程中保存文件
 ：w
-5、
+5、在编辑过程中进入shell
+：sh
+按ctrl+d重新进入文件编辑页面
+6、撤销上一步操作
+：u	
+7、字符替换
+:s/hello/world
+8、删除一行
+dd
+9、复制一行
+yy
+10、显示文件当前的状态
+:f 此命令同ctrl+g
+11、当编辑多个文件时候，文件切换 
+:e fileName
+12、读入一个文件内容，并且写入到当前的编辑器中
+
+===== 二：进阶使用 =====
+{{./pasted_image.png}}
